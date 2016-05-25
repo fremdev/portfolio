@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Alex Efremov • Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swipebox.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body id="home">
+   <nav class="navbar navbar-default">
+     <div class="container">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#home">Alex Efremov</a>
+       </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+     </div>
+    </nav>
+    <div class="container">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Alex Efremov. I was born, grew up and currently live in Ukraine. I graduated college of mechanical engineering, but I realized that manufacturing automation was not something I wanted to do in my life.</p>
+
+        <p>After graduation,  I was a professional online poker player. Aside of that, I was creating websites about formula one, poker, affiliate programs, and for a short period of time I was writing articles for other resources.</p>
+
+        <p>I can say that Fremler opens up a new stage of my life.  Lately, I have been learning web development and the English language, so now I am launching my first English speaking website to communicate with like-minded individuals from all over the world.</p>
+      </section>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="portfolio-item">
+              <a href="https://s3.co.ua">
+                <img class="img-responsive" src="img/school.png" alt="School site" />
+              </a>
+              <div class="site-description">
+                <p><b>Description: </b>Site for one of the best schools in the city Toretsk. Content is mixed Ukrainian and Russian languages.</p>
+                <p><b>My work: </b>Install WordPress and plugins, all settings and customisations, transfer and adjustment all content from old non-WordPress site.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="portfolio-item">
+              <a href="#">
+                <img class="img-responsive" src="img/fremler.png" alt="Fremler" />
+              </a>
+              <div class="site-description">
+                Personal blog about web development and earning money online
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <div><p>You can find me here:</p>
+          <div class="icons">
+            <div class="row">
+              <div class="col-xs-4 col-md-2 col-md-offset-3 contact-option">
+                <a href="https://twitter.com/fremdev"><i class="contact-icon fa fa-twitter-square fa-4x"></i></a>
+                <div class="contact-description">
+                  Send me a message on Twitter
+                </div>
+              </div>
+              <div class="col-xs-4 col-md-2 contact-option">
+                <a href="https://github.com/fremdev"><i class="contact-icon fa fa-github-square fa-4x"></i></a>
+                <div class="contact-description">
+                  Check my GitHub profile
+                </div>
+              </div>
+              <div class="col-xs-4 col-md-2 contact-option">
+                <a href="https://fremler.com"><i class="contact-icon fa fa-globe fa-4x"></i></a>
+                <div class="contact-description">
+                  Find some of my articles here
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>Also feel free to send me an e-mail - just fill out the form below. I’ll try to answer as quickly as possible.</p>
+        <form action="/my-handling-form-page" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input class="form-control" type="text" id="name" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-group">
+                <label for="mail">E-mail:</label>
+                <input class="form-control" type="email" id="mail" name="mail" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+                <label for="msg">Message:</label>
+                <textarea class="form-control" id="msg" name="msg" placeholder="Text of your message" required></textarea>
+            </div>
+            <div class="form-group hidden">
+                <label for="robotest">Leave it empty:</label>
+                <input class="form-control" id="robotest" name="robotest" />
+            </div>
+            <div>
+                <button class="btn btn-default" type="submit">Send your message</button>
+            </div>
+        </form>
+      </section>
+  </div>
+    <footer>
+      <div class="container">
+        <div>Designed and built by
+          <a href="https://twitter.com/fremdev">@fremdev</a> - 2016
+        </div>
+      </div>
+    </footer>
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="js/jquery.swipebox.min.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>

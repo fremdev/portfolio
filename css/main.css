@@ -1,0 +1,48 @@
+/*****************
+General
+*****************/
+.container {
+  min-width: 300px;
+}
+
+/*****************
+Navigation
+*****************/
+
+.navbar {
+  min-width: 300px;
+}
+
+/*****************
+Portfolio
+*****************/
+.portfolio-item {
+  background: #eee;
+  padding: 10px;
+}
+
+.site-description {
+  padding: 10px;
+}
+
+
+/*****************
+Contacts
+*****************/
+
+.contact-option {
+  text-align: center;
+}
+
+/*****************
+Footer
+*****************/
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  color: #99979c;
+  text-align: center;
+  background-color: #f8f8f8;
+}
