@@ -59,6 +59,18 @@ Navigation
   color: #cc5568;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #34678a;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
 /*****************
 Promo
 *****************/
