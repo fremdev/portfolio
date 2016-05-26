@@ -31,6 +31,7 @@ h2 {
   background-image:      -o-linear-gradient(right, #78a7c8, #34678a 40%);
   background-image:         linear-gradient(to right, #78a7c8, #34678a 40%);
 }
+
 /*****************
 Navigation
 *****************/
@@ -112,10 +113,32 @@ Contacts
 
 .contact-option {
   text-align: center;
+  background: #78a7c8;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
 }
 
 .contact-content {
   margin-bottom: 20px;
+}
+
+.contact-icon, .icons a {
+  color: white;
+}
+
+.icons i:hover, .icons a:hover {
+  color: #cc5568;
+}
+
+.btn {
+  background-color: #cc5568;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #9c5568;
+  color: #fff;
 }
 
 /*****************
@@ -132,5 +155,5 @@ footer {
 }
 
 footer a {
-  color: #f00;
+  color: #cc5568;
 }
