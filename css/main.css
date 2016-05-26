@@ -25,10 +25,10 @@ h2 {
 }
 
 .grad {
-  /*background-color: #78a7c8;*/
-  background-image: -webkit-linear-gradient(right, #00ffff, rgba(0,255,255,0.5));
-  background-image:    -moz-linear-gradient(right, #00ffff, rgba(0,255,255,0.5));
-  background-image:      -o-linear-gradient(right, #00ffff, rgba(0,255,255,0.5));
+  background-color: #78a7c8;
+  background-image: -webkit-linear-gradient(right, #78a7c8, #34678a 40%);
+  background-image:    -moz-linear-gradient(right, #78a7c8, #34678a 40%);
+  background-image:      -o-linear-gradient(right, #78a7c8, #34678a 40%);
   background-image:         linear-gradient(to right, #78a7c8, #34678a 40%);
 }
 /*****************
@@ -37,6 +37,31 @@ Navigation
 
 .navbar {
   min-width: 300px;
+}
+/*****************
+Promo
+*****************/
+
+.promo {
+  background-color: #586477;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.promo-text {
+  margin-top: 35px;
+}
+
+.main-photo {
+  max-height: 300px;
+  margin: 20px 10px;
+  border-radius: 20px;
+}
+
+.skill {
+  border: 1px solid #999;
+  padding: 3px;
+  background-color: #78a7c8;
 }
 
 /*****************
@@ -78,7 +103,11 @@ footer {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-top: 50px;
-  color: #99979c;
+  color: #fff;
   text-align: center;
-  background-color: #f8f8f8;
+  background-color: #34678a;
+}
+
+footer a {
+  color: #f00;
 }
