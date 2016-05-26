@@ -18,13 +18,19 @@ Portfolio
 *****************/
 .portfolio-item {
   background: #eee;
-  padding: 10px;
+  padding: 10px 10px 5px 10px;
+  margin-bottom: 10px;
 }
 
 .site-description {
   padding: 10px;
 }
 
+.question {
+  text-align: center;
+  font-size: 1.25em;
+  color: #cc5568;
+}
 
 /*****************
 Contacts
