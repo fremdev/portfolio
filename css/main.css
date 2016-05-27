@@ -176,4 +176,9 @@ footer {
 
 footer a {
   color: #cc5568;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ee3333;
 }
