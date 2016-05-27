@@ -111,7 +111,7 @@ Promo
 Portfolio
 *****************/
 .portfolio-item {
-  background: #eee;
+  background: #d8e0e5;
   padding: 10px 10px 5px 10px;
   margin-bottom: 10px;
 }
@@ -136,6 +136,7 @@ Contacts
   padding: 10px;
   border-radius: 5px;
   color: white;
+  margin-bottom: 10px;
 }
 
 .contact-content {
