@@ -53,11 +53,11 @@ Navigation
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-  color: #cc5568;
+  color: #000;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #cc5568;
+  color: #000;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -85,7 +85,7 @@ Promo
   background-color: #586477;
   font-size: 1.2em;
   color: #fff;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .promo-text {
@@ -181,4 +181,14 @@ footer a {
 
 footer a:hover {
   color: #ee3333;
+}
+
+/*****************
+Media Queries
+*****************/
+
+@media (max-width: 768px) {
+  .promo {
+    text-align: center;
+  }
 }
