@@ -5,6 +5,8 @@ General
 body {
   background-color: #f5f5f5;
   position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 .container {
@@ -18,7 +20,8 @@ section {
 }
 
 h2 {
-  font-size: 1.75em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
   padding: 10px;
   margin-left: -20px;
   margin-right: -20px;
@@ -38,6 +41,7 @@ Navigation
 *****************/
 
 .navbar {
+  font-family: 'Oswald', sans-serif;
   min-width: 300px;
   background: #78a7c8;
   font-weight: bold;
@@ -46,6 +50,7 @@ Navigation
 
 .navbar-default .navbar-brand {
     color: #fff;
+    font-size: 24px;
 }
 
 .navbar-default .navbar-nav>li>a {
