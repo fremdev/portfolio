@@ -112,61 +112,15 @@ Promo
   margin-bottom: 5px;
 }
 
-
 .devicons {
   font-size: 46px;
   display: inline-block;
   padding: 2px;
-  background: rgba(255,255,255,0.9);
+  background: #78a7c8;
   margin-bottom: 5px;
   border-radius: 5px;
 }
 
-
-.devicons-html5 {
-    color: #E34C26;
-}
-
-.devicons-css3 {
-    color: #0b73b8;
-}
-
-.devicons-javascript_badge {
-    color: #f0db4f;
-}
-
-.devicons-jquery {
-    color: #0769AD;
-}
-
-.devicons-wordpress {
-    color: #21759b;
-}
-
-.devicons-react {
-    color: #61dafb;
-    border-radius: 50%;
-    background: #111;
-}
-
-.devicons-npm {
-    color: #cb3837;
-}
-
-.devicons-git {
-    color: #ee513b;
-}
-
-.devicons-terminal {
-    color: #000;
-}
-
-.devicons-bootstrap {
-    color: #401F7C;
-}
-.devicons-sass {
-    color: #c6538c;
-}
 /*****************
 Portfolio
 *****************/
